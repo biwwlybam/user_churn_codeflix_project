@@ -88,5 +88,5 @@ status_aggregate AS
 SELECT
   month, 
   100.0 * sum_canceled_87 / sum_active_87 AS churn_rate_87,
-  100.0 * sum_canceled_30 / sum_active_30 AS churtn_rate_30
+  100.0 * sum_canceled_30 / sum_active_30 AS churn_rate_30
 FROM status_aggregate;
